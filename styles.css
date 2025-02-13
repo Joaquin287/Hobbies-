@@ -1,0 +1,138 @@
+/* Body Styles */
+body {
+    background-color: #AFEEEE;  /* Light turquoise background */
+    font-family: 'Roboto', sans-serif;
+    color: #333;  /* Default text color */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 36px;
+    color: #4B0082;  /* Deep indigo for primary header */
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px;
+    color: #4B0082;  /* Similar color but slightly different size */
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin: 20px auto;
+    max-width: 800px; /* Limit paragraph width for better readability */
+    text-align: justify;
+    padding: 0 20px;
+    background-color: #fff; /* White background for paragraphs */
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Superscript Styling */
+sup {
+    font-size: 12px;
+    color: #f00;
+    position: relative;
+    top: -4px;
+}
+
+/* Horizontal Rule (Line) */
+hr {
+    border: none;
+    height: 2px;
+    background-color: cyan;
+    margin: 30px auto;
+    width: 80%;
+}
+
+/* Code Styling */
+code {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    padding: 2px 6px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Italic Styling */
+i {
+    font-style: italic;
+    color: #4B0082;
+}
+
+/* Bold Styling */
+b {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Underline Styling */
+u {
+    text-decoration: underline;
+}
+
+/* Inserted Text */
+ins {
+    text-decoration: underline;
+    color: green;
+}
+
+/* Deleted Text */
+del {
+    text-decoration: line-through;
+    color: red;
+}
+
+/* Keyboard Styling */
+kbd {
+    font-family: monospace;
+    background-color: #f0f0f0;
+    padding: 3px 6px;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Button Hover Effects */
+button {
+    background-color: #4B0082;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6A0DAD;
+}
+
+/* Anchor Hover Effects */
+a {
+    color: #4B0082;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #6A0DAD;
+    text-decoration: underline;
+}
+
+/* Add spacing between blocks */
+section {
+    margin: 40px 0;
+}
